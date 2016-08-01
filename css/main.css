@@ -19,10 +19,12 @@ body {
     background: #fff;
     color: #424242;
     font-family: 'Lato', sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 h1 {
     font-family: 'Bungee Shade', cursive;
-    font-size: 42;
+    font-size: 64;
 }
 
 /*
