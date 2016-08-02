@@ -1,12 +1,41 @@
+body {
+    font-family: 'lato', sans-serif;
+}
 .bg-1 {
-    background-color: #77BEF5; /* Green */
+    background-image: url("background-mountains.jpg");/* Green */
+    background-size: cover;
+    width: 100%;
     color: #ffffff;
 }
 .bg-2 {
-    background-color: #77BEF5; /* Green */
+    background-color: #232323; /* Green */
     color: #ffffff;
 }
+.bg-3 {
+    background-color: #fff; /* White */
+    color: #555555;
+}
 .container-fluid {
-    padding-top: 10%;
-    padding-bottom: 90%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.logo-padding {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.inline {
+    display:inline
+}
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.navbar li a:hover {
+    color: #5dBEF7 !important;
 }
