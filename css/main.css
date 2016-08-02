@@ -8,12 +8,13 @@ body {
     color: #ffffff;
 }
 .bg-2 {
-    background-color: #232323; /* Green */
+    background-color: #282828; /* Green */
     color: #ffffff;
 }
 .bg-3 {
-    background-color: #fff; /* White */
+    background-color: #f2f2f2; /* White */
     color: #555555;
+    
 }
 .container-fluid {
     padding-top: 70px;
@@ -23,10 +24,15 @@ body {
     padding-top: 150px;
     padding-bottom: 150px;
 }
+.navbar-padding {
+    padding-top: 300px;
+    padding-bottom: 30px;
+}
 .inline {
     display:inline
 }
 .navbar {
+    width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
     border: 0;
