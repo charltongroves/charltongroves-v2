@@ -1,6 +1,9 @@
 body {
     font-family: 'lato', sans-serif;
 }
+.blue_bg{
+    background-color: #2196F3;
+}
 .bg-1 {
     background-image: url("background-mountains.jpg");/* Green */
     background-size: cover;
@@ -21,7 +24,7 @@ body {
     padding-bottom: 70px;
 }
 .logo-padding {
-    padding-top: 200px;
+    padding-top: 50px;
     padding-bottom: 200px;
 }
 .logo {
