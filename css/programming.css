@@ -1,6 +1,8 @@
 
 .top-border {
-
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #484848;
 }
 .side-nav li {
 
@@ -9,6 +11,13 @@
 a:hover {
     text-decoration: none;
 }
+.highlight {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #484848;
+}
+
+
 .highlight:hover,
 .highlight:active {
     background-color: #333;
