@@ -19,6 +19,60 @@ body {
     color: #555555;
     
 }
+
+h1 {
+  font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+  font-weight: 500;
+letter-spacing: .08rem;
+    color: #373737;
+    font-weight: 700;
+    margin-top: 0;
+  }
+
+h2 {
+    font-size: 2.22rem;
+    line-height: 2.2rem;
+    margin-bottom: 1.75rem;
+    font-weight: 300;
+        margin-top: 0;
+    color: #878787;
+        letter-spacing: .08rem;
+}
+h3 {
+    font-size: 1.72rem;
+    line-height: 1.72rem;
+    margin-bottom: 1.75rem;
+    font-weight: 300;
+    margin-top: 0;
+    color: #878787;
+    letter-spacing: .35rem;
+    word-spacing: 1.20rem;
+}
+h3 a {
+        color: #878787;
+}
+
+p a {
+    color: #FF5613;
+    text-decoration: none;
+}
+.text-highlight {
+    color: #FF5613;
+}
+p {
+    font-size: 2.0rem;
+    line-height: 3.0rem;
+    margin-bottom: 2.0rem;
+    margin-top: 0;
+}
+
+hr { 
+    border-width: 3px;
+    color: #000;
+}
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -37,6 +91,64 @@ body {
 .inline {
     display:inline
 }
+
+
+
+.icons-list {
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+        align-items: center;
+    justify-content: center;
+    
+}
+.icon-container {
+    display: inline-block;
+    margin: 0 auto;
+    width: 80%;
+    background-color: blue;
+}
+.icons-list__item {
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    box-flex: 0;
+    -webkit-flex: 0 0 33.33%;
+    -moz-flex: 0 0 33.33%;
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
+    font-size: 1.9rem;
+    line-height: 1.9rem;
+    list-style: none;
+    margin: 0 0 2.5rem;
+    padding: 0;
+}
+
+
 .navbar {
     width: 100%;
     padding-top: 5px;
@@ -50,4 +162,74 @@ body {
 
 .navbar li a:hover {
     color: #5dBEF7 !important;
+}
+
+/* navbar */
+.navbar-default {
+    background-color: #2196F3;
+    border-color: #fff;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #fff;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #fff;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #fff;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #2196F3;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+    background-color: #90CAF9;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
 }
