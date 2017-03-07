@@ -1,102 +1,114 @@
-
-.white-bg {
-    background-color: #424242;
-}
-.projWrap {
-    max-width: 1500px;
-    max-height: 10rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-pre {
-    background-color: #424242;
-    border-color: #424242;
-    color: #fff;
-}
-.proj {
-    max-width: 1600px;
-    margin-bottom: 20px;
-    background-size: cover;
-    background-position: center;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: all 0.4s cubic-bezier(.25, .8, .25, 1);
-}
-.container-fluid {
-    padding: 3rem 1.5rem 3rem 1.5rem;
-}
-
-.proj:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-
-.proj1 {
-    background-image: url("../img/codebg.jpg"); */
-    background-color: #f2f2f2;
-    z-index: 10;
-}
-
-.proj2 {
-    background-image: url("../img/codebg.jpg");*/
-        background-color: #f2f2f2;
-    z-index: 9;
-}
-
-.proj3 {
-    background-image: url("../img/codebg.jpg");*/
-        background-color: #f2f2f2;
-    z-index: 8;
-}
-
-.proj4 {
-        background-image: url("../img/codebg.jpg");*/
-            background-color: #f2f2f2;
-    z-index: 7;
-}
-
-.leftColumn {
-    float: left;
-    width: 50%;
-    padding-left: 0px;
-
-}
-.proj-header {
-    color: #fff;
-    font-size: 2.22rem;
-    line-height: 2.2rem;
-    margin-bottom: 1.75rem;
-    font-weight: 300;
-        margin-top: 0;
-        letter-spacing: .05rem;
-        word-spacing: .16rem
-}
-.proj-desc {
-    color: #bbb;
-}
-
-.rightColumn {
-    float: left;
-    width: 50%;
-    padding: 0px 20px 10px 30px;
-}
-
-@media screen and (max-width: 980px) {
-    .leftColumn {
-    float: left;
-    width: 100%;
-    padding-left: 0px;
-                transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
-}
-
-.rightColumn {
-    float: left;
-    width: 100%;
-    padding: 0px 20px 10px 30px;
-            transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
-}
-    .centerSlide {
-    margin: auto;
-    max-width: 90%;
-}
+ .white-bg {
+     background-color: #424242;
+ }
+ 
+ .projWrap {
+     max-width: 1500px;
+     max-height: 10rem;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ pre {
+     background-color: #424242;
+     border-color: #424242;
+     color: #fff;
+ }
+ 
+ h1,
+ h2 {
+     color: #fff;
+ }
+ 
+ p {
+     color: #bbb;
+ }
+ 
+ .proj {
+     max-width: 1600px;
+     margin-bottom: 20px;
+     background-size: cover;
+     background-position: center;
+     margin-left: auto;
+     margin-right: auto;
+     position: relative;
+     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+     transition: all 0.4s cubic-bezier(.25, .8, .25, 1);
+ }
+ 
+ .container-fluid {
+     padding: 3rem 1.5rem 3rem 1.5rem;
+ }
+ 
+ .proj:hover {
+     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+ }
+ 
+ .proj1 {
+     background-image: url("../img/codebg.jpg");
+     */ background-color: #f2f2f2;
+     z-index: 10;
+ }
+ 
+ .proj2 {
+     background-image: url("../img/codebg.jpg");
+     */ background-color: #f2f2f2;
+     z-index: 9;
+ }
+ 
+ .proj3 {
+     background-image: url("../img/codebg.jpg");
+     */ background-color: #f2f2f2;
+     z-index: 8;
+ }
+ 
+ .proj4 {
+     background-image: url("../img/codebg.jpg");
+     */ background-color: #f2f2f2;
+     z-index: 7;
+ }
+ 
+ .leftColumn {
+     float: left;
+     width: 50%;
+     padding-left: 0px;
+ }
+ 
+ .proj-header {
+     color: #fff;
+     font-size: 2.22rem;
+     line-height: 2.2rem;
+     margin-bottom: 1.75rem;
+     font-weight: 300;
+     margin-top: 0;
+     letter-spacing: .05rem;
+     word-spacing: .16rem
+ }
+ 
+ .proj-desc {
+     color: #bbb;
+ }
+ 
+ .rightColumn {
+     float: left;
+     width: 50%;
+     padding: 0px 20px 10px 30px;
+ }
+ 
+ @media screen and (max-width: 980px) {
+     .leftColumn {
+         float: left;
+         width: 100%;
+         padding-left: 0px;
+         transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
+     }
+     .rightColumn {
+         float: left;
+         width: 100%;
+         padding: 0px 20px 10px 30px;
+         transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
+     }
+     .centerSlide {
+         margin: auto;
+         max-width: 90%;
+     }
