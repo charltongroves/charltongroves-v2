@@ -1,108 +1,102 @@
 
-.top-border {
-    border-top-style: solid;
-    border-width: 1px;
-    border-color: #484848;
+.white-bg {
+    background-color: #424242;
 }
-.side-nav li {
-
-
+.projWrap {
+    max-width: 1500px;
+    max-height: 10rem;
+    margin-left: auto;
+    margin-right: auto;
 }
-a:hover {
-    text-decoration: none;
-}
-.highlight {
-    border-bottom-style: solid;
-    border-width: 1px;
-    border-color: #484848;
-}
-
-
-.highlight:hover,
-.highlight:active {
-    background-color: #333;
-}
-h1, h2 {
-      text-align: center;
-}
-.content {
-    max-width: 70rem;
-    margin: auto;
-}
-p {
-font-size: 1.6rem;
-    line-height: 2.2rem;
-    margin-bottom: 1.6rem;
-  font-weight: 500;
-letter-spacing: .08rem;
-    color: #424242;
-}
-@media screen and (min-width: 800px) and (min-height: 720px) {
-.home-card {   
-  padding-left: 25rem;
-  padding-top: 5rem;
-}
-.side-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 8rem 0 0 0;
-    width: 20rem;
-    background-color: #555;
-    height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-
-}
-.side-nav li a {
-    display: block;
-        padding: 2.125rem 2rem 2.125rem 2rem;
-}
-.side-nav-text {
-    font-size: 1.72rem;
-    line-height: 1.72rem;
-    margin-bottom: 1.75rem;
-    font-weight: 300;
-    margin-top: 0;
-    letter-spacing: .35rem;
-    word-spacing: 1.20rem;
-        color: #f2f2f2 !important;
-    margin: 0;
-}
-.side-nav-header-text {
-    font-size: 1.72rem;
-    line-height: 1.72rem;
-    margin-bottom: 1.75rem;
-    font-weight: 300;
-    margin-top: 0;
+pre {
+    background-color: #424242;
+    border-color: #424242;
     color: #fff;
-    letter-spacing: .35rem;
-    word-spacing: 1.20rem;
-        padding: 2.125rem 2rem 2.125rem 2rem;
 }
-}
-
-
-@media screen and (max-width: 800px) , screen and (max-height: 720px) {
-.home-card { 
-    padding: 6rem 20px 20px 20px;
-    background: #f2f2f2;
+.proj {
+    max-width: 1600px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: all 0.4s cubic-bezier(.25, .8, .25, 1);
 }
-.side-nav {
-    display: none;
-}
-.blue-bg {
-    background-color: #f2f2f2;
-}
+.container-fluid {
+    padding: 3rem 1.5rem 3rem 1.5rem;
 }
 
-.faceimage:active {
-    display: block;
-    border-radius: 50%;
+.proj:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.proj1 {
+    background-image: url("../img/codebg.jpg"); */
+    background-color: #f2f2f2;
+    z-index: 10;
+}
+
+.proj2 {
+    background-image: url("../img/codebg.jpg");*/
+        background-color: #f2f2f2;
+    z-index: 9;
+}
+
+.proj3 {
+    background-image: url("../img/codebg.jpg");*/
+        background-color: #f2f2f2;
+    z-index: 8;
+}
+
+.proj4 {
+        background-image: url("../img/codebg.jpg");*/
+            background-color: #f2f2f2;
+    z-index: 7;
+}
+
+.leftColumn {
+    float: left;
+    width: 50%;
+    padding-left: 0px;
+
+}
+.proj-header {
+    color: #fff;
+    font-size: 2.22rem;
+    line-height: 2.2rem;
+    margin-bottom: 1.75rem;
+    font-weight: 300;
+        margin-top: 0;
+        letter-spacing: .05rem;
+        word-spacing: .16rem
+}
+.proj-desc {
+    color: #bbb;
+}
+
+.rightColumn {
+    float: left;
+    width: 50%;
+    padding: 0px 20px 10px 30px;
+}
+
+@media screen and (max-width: 980px) {
+    .leftColumn {
+    float: left;
+    width: 100%;
+    padding-left: 0px;
+                transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
+}
+
+.rightColumn {
+    float: left;
+    width: 100%;
+    padding: 0px 20px 10px 30px;
+            transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
+}
+    .centerSlide {
     margin: auto;
-    width: 828px;
-    height: 528px;
-        animation:spin 4s linear infinite;
-            transition: all 0.4s cubic-bezier(.25, .8, .25, 1);
+    max-width: 90%;
 }
