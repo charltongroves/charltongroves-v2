@@ -1,7 +1,7 @@
  .top-border {
     border-top-style: solid;
     border-width: 1px;
-    border-color: #484848;
+    border-color: #BBB;
 }
 
 .side-nav li {}
@@ -13,7 +13,7 @@ a:hover {
 .highlight {
     border-bottom-style: solid;
     border-width: 1px;
-    border-color: #484848;
+    border-color: #BBB;
 }
 
 .highlight:hover,
@@ -50,7 +50,7 @@ p {
         margin: 0;
         padding: 8rem 0 0 0;
         width: 20rem;
-        background-color: #555;
+        background-color: #EEE;
         height: 100%;
         /* Full height */
         position: fixed;
@@ -71,7 +71,7 @@ p {
         margin-top: 0;
         letter-spacing: .35rem;
         word-spacing: 1.20rem;
-        color: #f2f2f2 !important;
+        color: #616161 !important;
         margin: 0;
     }
     .side-nav-header-text {
@@ -80,7 +80,7 @@ p {
         margin-bottom: 1.75rem;
         font-weight: 300;
         margin-top: 0;
-        color: #fff;
+        color: #444;
         letter-spacing: .35rem;
         word-spacing: 1.20rem;
         padding: 2.125rem 2rem 2.125rem 2rem;
