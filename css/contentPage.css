@@ -15,6 +15,9 @@ a:hover {
     border-width: 1px;
     border-color: #BBB;
 }
+hr { 
+    color: #999;
+}
 
 .highlight:hover,
 .highlight:active {
