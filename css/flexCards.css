@@ -30,6 +30,9 @@ main {
 .important {
     height: 30rem;
 }
+.boring {
+    height: 15rem;
+}
 .demo-card-square.mdl-card {
     width: 100%;
     height: 100%;
@@ -66,7 +69,7 @@ main {
         flex: 2 2 calc(33% - 2rem);
     }
     .boring {
-        flex: 3 3 calc(25% - 2rem);
+        flex: 0 3 calc(25% - 2rem);
     }
     .important {
         flex: 1 1 calc(50% - 2rem)
