@@ -405,6 +405,7 @@ li.problem-text {
 .demo-video {
     width: 1000px;
     height: 563px;
+    max-height: 50vh;
 }
 
 @media (max-width:1300px) {
