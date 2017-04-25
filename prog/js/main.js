@@ -2,6 +2,7 @@ $(function () {
     $.scrollify({
         section: ".panel",
         scrollbars: true,
+        touchScroll: false,
         before: function (i, panels) {
 
             var ref = panels[i].attr("data-section-name");

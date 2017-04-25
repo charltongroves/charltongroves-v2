@@ -385,6 +385,10 @@ li.problem-text {
 
 .team-member p {
     font-size: 1rem;
+    margin-top: 0.5rem;
+}
+.team-member br {
+    padding-top: 0.5rem;
 }
 
 .team-member img {
